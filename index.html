@@ -97,6 +97,23 @@
         button:active {
             background: #e63e00;
         }
+
+        .footer {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #ff4500;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer a:hover {
+            color: #ff5722;
+        }
     </style>
 </head>
 <body>
@@ -114,6 +131,10 @@
             >
             <button type="submit">Search</button>
         </form>
+    </div>
+
+    <div class="footer">
+        <a href="https://hachyderm.io/@goncharom" target="_blank">mastodon</a>
     </div>
 
     <script>
